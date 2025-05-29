@@ -1,10 +1,8 @@
-package MiPrimerProyectoJava;
-
 import java.util.Scanner;
 
 public class Operadores {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+       Scanner scanner = new Scanner (System.in);
 
         System.out.println("ingrese el primer numero:");
         int num1 = scanner.nextInt();

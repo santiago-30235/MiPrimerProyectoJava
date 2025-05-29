@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class NumeroFactorial {
+public class NumeroFactorial {    
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese un número: ");
-        int numero = Scanner.nextInt();
+        int numero = scanner.nextInt();
 
         int factorial = 1;
         int i = 1;
@@ -15,5 +16,4 @@ public class NumeroFactorial {
         }
 
         System.out.println("El factorial de " + numero + " es: " + factorial);
-    }
-}
+}    }
