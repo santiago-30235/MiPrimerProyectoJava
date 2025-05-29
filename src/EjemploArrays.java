@@ -1,4 +1,8 @@
+import java.util.Scanner;
+
 public class EjemploArrays {
+    
+    Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         // Declarar e inicializar el array
         int[] numeros = {10, 20, 30, 40, 50};
